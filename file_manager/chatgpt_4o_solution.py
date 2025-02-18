@@ -102,3 +102,4 @@ class DataProcessor:
         """Extracts the compressed file."""
         compressed_file = f"{self.file_handler.file_path}.zip"
         self.compressor.extract(compressed_file, extract_to or os.path.dirname(self.file_handler.file_path))
+
